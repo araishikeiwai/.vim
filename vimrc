@@ -15,6 +15,9 @@ let maplocalleader = "m"
 " backspace
 set backspace=indent,eol,start
 
+set splitright
+set splitbelow
+
 " wrapping
 set wrap
 set linebreak
