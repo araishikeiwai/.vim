@@ -1,5 +1,5 @@
-" Xinuc's .vimrc
-" by Nugroho Herucahyono <xinuc@xinuc.org>
+" araishikeiwai's .vimrc
+" modified from xinuc's
 
 set encoding=utf-8
 
@@ -25,7 +25,7 @@ set listchars=tab:>-,trail:.
 
 " search
 set incsearch
-set hlsearch
+"set hlsearch
 set ignorecase
 
 " cmd history
@@ -50,7 +50,7 @@ set ch=2
 set mousehide
 set et!
 
-"set number
+set number
 set scrolloff=2
 set ruler
 
