@@ -166,6 +166,6 @@ let g:SuperTabContextDefaultCompletionType = "<c-n>"
 " elixir
 imap <C-\> \|>
 
-inoremap <C-s> <esc>:w<cr>
+inoremap <C-s> <esc>:w<cr>a
 nnoremap <C-s> :w<cr>
 
