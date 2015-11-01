@@ -149,7 +149,18 @@ fun! <SID>StripTrailingWhitespaces()
     call cursor(l, c)
 endfun
 
+" code Java!
+fun! Java()
+  set tabstop=8
+  set softtabstop=0
+  set shiftwidth=4
+  set expandtab
+  set smarttab
+  retab
+endfun
+
 autocmd FileType c,cpp,java,php,ruby,python,javascript autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
+autocmd FileType c,cpp,java,php,python,javascript autocmd BufEnter <buffer> :call Java()
 
 " new ruby hash syntax
 fun! NewHashSyntax()
@@ -186,11 +197,3 @@ au InsertLeave * hi statusline guibg=green
 
 " default the statusline to green when entering Vim
 hi statusline guibg=green"
-
-" code Java!
-fun! Java()
-  set tabstop=4
-  set shiftwidth=4
-  set expandtab
-  retab
-endfun
