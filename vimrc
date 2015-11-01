@@ -186,3 +186,11 @@ au InsertLeave * hi statusline guibg=green
 
 " default the statusline to green when entering Vim
 hi statusline guibg=green"
+
+" code Java!
+fun! Java()
+  set tabstop=4
+  set shiftwidth=4
+  set expandtab
+  retab
+endfun
