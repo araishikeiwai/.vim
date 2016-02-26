@@ -78,6 +78,9 @@ map <S-Down> <C-W>j
 map <S-Up> <C-W>k
 map <S-Left> <C-W>h
 map <S-Right> <C-W>l
+map <C-Up> <C-W>_
+map <C-Right> <C-W><bar>
+map <C-Down> <C-W>=
 map <leader>y "+y
 map <leader>p "+gp
 map <C-Backspace> db
