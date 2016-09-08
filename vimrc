@@ -74,10 +74,10 @@ set showmode
 map <S-Insert> <MiddleMouse>
 map! <S-Insert> <MiddleMouse>
 map <S-Tab> :NERDTreeToggle<CR>
-map <S-Down> <C-W>j
-map <S-Up> <C-W>k
-map <S-Left> <C-W>h
-map <S-Right> <C-W>l
+map <C-J> <C-W>j
+map <C-K> <C-W>k
+map <C-H> <C-W>h
+map <C-L> <C-W>l
 map <C-Up> <C-W>_
 map <C-Right> <C-W><bar>
 map <C-Down> <C-W>=
