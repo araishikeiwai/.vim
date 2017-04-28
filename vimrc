@@ -121,6 +121,10 @@ set laststatus=2
 let g:ctrlp_working_path_mode = 0
 map <localleader>tt :CtrlP<CR>
 map <localleader>tr :CtrlPBuffer<CR>
+let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
+if executable('ag')
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+endif
 
 " ctrlp.vim Rails
 map <localleader>tm :CtrlP app/models<CR>
