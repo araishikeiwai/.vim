@@ -131,7 +131,9 @@ map <localleader>tm :CtrlP app/models<CR>
 map <localleader>tc :CtrlP app/controllers<CR>
 map <localleader>tv :CtrlP app/views<CR>
 map <localleader>ta :CtrlP app/assets<CR>
-map <localleader>ts :CtrlP spec<CR>
+map <localleader>ts :CtrlP app/services<CR>
+map <localleader>tj :CtrlP app/jobs<CR>
+map <localleader>tp :CtrlP spec<CR>
 
 " quick no hl
 map <C-CR> :nohlsearch<CR>
