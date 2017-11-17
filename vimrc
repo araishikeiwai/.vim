@@ -168,7 +168,7 @@ fun! Java()
   retab
 endfun
 
-autocmd FileType c,cpp,java,php,ruby,python,javascript autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
+autocmd FileType c,cpp,java,php,ruby,python,javascript,go autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
 autocmd FileType c,cpp,java,php,python,javascript autocmd BufEnter <buffer> :call Java()
 
 " new ruby hash syntax
@@ -206,3 +206,5 @@ au InsertLeave * hi statusline guibg=green
 
 " default the statusline to green when entering Vim
 hi statusline guibg=green"
+
+let g:go_version_warning = 0
